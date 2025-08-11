@@ -1,0 +1,104 @@
+main {
+    background:linear-gradient(#fff,#FFDBE1);
+    height:841px;
+    border-radius:30px;
+    text-align:center;
+    max-width:1024px;
+    margin:0 auto;
+    padding:55px 35px;
+}
+main .title {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+main .title h1 {
+    font-size:1.125rem;
+    font-weight:700;
+}
+main .title .btn_refresh {}
+main .day {
+    display:flex;
+    gap:9px;
+}
+main .day p {
+    font-size:1.125rem;
+    font-weight:700;
+}
+main .day .day_more {}
+main .temp {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:34px;
+    margin-bottom:38px;
+}
+main .temp p {
+    font-weight:900;
+    font-size:1.875rem;
+}
+main .temp strong {
+    font-size:1.875rem;
+}
+main .temp strong span {}
+main .weather_wrap {}
+main .weather_wrap .rain_icon {
+}
+main .weather_wrap #weather_title {
+    margin-top:18px;
+    margin-bottom:19px;
+    font-size:1.375rem;
+    font-weight:800;
+}
+main .weather_wrap #weather_title strong {
+    font-weight:800;
+}
+main .weather_wrap #weather_title span {
+    color:#FF1A75;
+    font-weight:800;
+}
+main .weather_wrap .desc {
+    margin-bottom:32px;
+}
+main .weather_wrap img {}
+
+@media (min-width:768px) and (max-width:1023px) {
+    main .title h1 {
+        font-size:1.25rem;
+    }
+    main .day p {
+        font-size:1.25rem;
+    }
+    main .temp {
+        display:flex;
+        flex-flow:column nowrap;
+        align-items:center;
+        gap:10px;
+        margin-top:34px;
+        margin-bottom:38px;
+        font-size:2.063rem;
+    }
+    main .temp p, main .temp strong {
+        font-size:2.063rem;
+    }
+}
+@media (min-width:1024px) {
+    main .title h1 {
+        font-size:1.5rem;
+    }
+    main .day p {
+        font-size:1.5rem;
+    }
+    main .temp {
+        display:flex;
+        flex-flow:column nowrap;
+        align-items:center;
+        gap:10px;
+        margin-top:34px;
+        margin-bottom:38px;
+    }
+    main .temp p, main .temp strong {
+        font-size:2.188rem;
+    }
+}
